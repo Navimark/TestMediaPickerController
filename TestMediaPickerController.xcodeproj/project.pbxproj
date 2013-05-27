@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1AA0DF717532449008A46CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AA0DF617532449008A46CA /* UIKit.framework */; };
+		B1AA0DF917532449008A46CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AA0DF817532449008A46CA /* Foundation.framework */; };
+		B1AA0DFB17532449008A46CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AA0DFA17532449008A46CA /* CoreGraphics.framework */; };
+		B1AA0E0117532449008A46CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1AA0DFF17532449008A46CA /* InfoPlist.strings */; };
+		B1AA0E0317532449008A46CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AA0E0217532449008A46CA /* main.m */; };
+		B1AA0E0717532449008A46CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AA0E0617532449008A46CA /* AppDelegate.m */; };
+		B1AA0E0917532449008A46CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B1AA0E0817532449008A46CA /* Default.png */; };
+		B1AA0E0B17532449008A46CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1AA0E0A17532449008A46CA /* Default@2x.png */; };
+		B1AA0E0D17532449008A46CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1AA0E0C17532449008A46CA /* Default-568h@2x.png */; };
+		B1AA0E15175324AF008A46CA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AA0E14175324AF008A46CA /* HomeViewController.m */; };
+		B1AA0E17175325A4008A46CA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AA0E16175325A4008A46CA /* CoreMedia.framework */; };
+		B1AA0E1C17533452008A46CA /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AA0E1B17533452008A46CA /* CoreAudio.framework */; };
+		B1AA0E1E17533497008A46CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AA0E1D17533497008A46CA /* AVFoundation.framework */; };
+		B1AA0E20175334C8008A46CA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AA0E1F175334C8008A46CA /* AudioToolbox.framework */; };
+		B1AA0E241753379D008A46CA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AA0E231753379D008A46CA /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1AA0DF317532449008A46CA /* TestMediaPickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMediaPickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1AA0DF617532449008A46CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1AA0DF817532449008A46CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1AA0DFA17532449008A46CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1AA0DFE17532449008A46CA /* TestMediaPickerController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestMediaPickerController-Info.plist"; sourceTree = "<group>"; };
+		B1AA0E0017532449008A46CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1AA0E0217532449008A46CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1AA0E0417532449008A46CA /* TestMediaPickerController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestMediaPickerController-Prefix.pch"; sourceTree = "<group>"; };
+		B1AA0E0517532449008A46CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1AA0E0617532449008A46CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1AA0E0817532449008A46CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B1AA0E0A17532449008A46CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B1AA0E0C17532449008A46CA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B1AA0E13175324AF008A46CA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B1AA0E14175324AF008A46CA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B1AA0E16175325A4008A46CA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B1AA0E1B17533452008A46CA /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B1AA0E1D17533497008A46CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B1AA0E1F175334C8008A46CA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B1AA0E231753379D008A46CA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1AA0DF017532449008A46CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AA0E241753379D008A46CA /* MediaPlayer.framework in Frameworks */,
+				B1AA0E20175334C8008A46CA /* AudioToolbox.framework in Frameworks */,
+				B1AA0E1E17533497008A46CA /* AVFoundation.framework in Frameworks */,
+				B1AA0E1C17533452008A46CA /* CoreAudio.framework in Frameworks */,
+				B1AA0E17175325A4008A46CA /* CoreMedia.framework in Frameworks */,
+				B1AA0DF717532449008A46CA /* UIKit.framework in Frameworks */,
+				B1AA0DF917532449008A46CA /* Foundation.framework in Frameworks */,
+				B1AA0DFB17532449008A46CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1AA0DEA17532449008A46CA = {
+			isa = PBXGroup;
+			children = (
+				B1AA0E13175324AF008A46CA /* HomeViewController.h */,
+				B1AA0E14175324AF008A46CA /* HomeViewController.m */,
+				B1AA0DFC17532449008A46CA /* TestMediaPickerController */,
+				B1AA0DF517532449008A46CA /* Frameworks */,
+				B1AA0DF417532449008A46CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1AA0DF417532449008A46CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1AA0DF317532449008A46CA /* TestMediaPickerController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1AA0DF517532449008A46CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1AA0E231753379D008A46CA /* MediaPlayer.framework */,
+				B1AA0E1F175334C8008A46CA /* AudioToolbox.framework */,
+				B1AA0E1D17533497008A46CA /* AVFoundation.framework */,
+				B1AA0E1B17533452008A46CA /* CoreAudio.framework */,
+				B1AA0E16175325A4008A46CA /* CoreMedia.framework */,
+				B1AA0DF617532449008A46CA /* UIKit.framework */,
+				B1AA0DF817532449008A46CA /* Foundation.framework */,
+				B1AA0DFA17532449008A46CA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1AA0DFC17532449008A46CA /* TestMediaPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				B1AA0E0517532449008A46CA /* AppDelegate.h */,
+				B1AA0E0617532449008A46CA /* AppDelegate.m */,
+				B1AA0DFD17532449008A46CA /* Supporting Files */,
+			);
+			path = TestMediaPickerController;
+			sourceTree = "<group>";
+		};
+		B1AA0DFD17532449008A46CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1AA0DFE17532449008A46CA /* TestMediaPickerController-Info.plist */,
+				B1AA0DFF17532449008A46CA /* InfoPlist.strings */,
+				B1AA0E0217532449008A46CA /* main.m */,
+				B1AA0E0417532449008A46CA /* TestMediaPickerController-Prefix.pch */,
+				B1AA0E0817532449008A46CA /* Default.png */,
+				B1AA0E0A17532449008A46CA /* Default@2x.png */,
+				B1AA0E0C17532449008A46CA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1AA0DF217532449008A46CA /* TestMediaPickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1AA0E1017532449008A46CA /* Build configuration list for PBXNativeTarget "TestMediaPickerController" */;
+			buildPhases = (
+				B1AA0DEF17532449008A46CA /* Sources */,
+				B1AA0DF017532449008A46CA /* Frameworks */,
+				B1AA0DF117532449008A46CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMediaPickerController;
+			productName = TestMediaPickerController;
+			productReference = B1AA0DF317532449008A46CA /* TestMediaPickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1AA0DEB17532449008A46CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mike Chen";
+			};
+			buildConfigurationList = B1AA0DEE17532449008A46CA /* Build configuration list for PBXProject "TestMediaPickerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1AA0DEA17532449008A46CA;
+			productRefGroup = B1AA0DF417532449008A46CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1AA0DF217532449008A46CA /* TestMediaPickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1AA0DF117532449008A46CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AA0E0117532449008A46CA /* InfoPlist.strings in Resources */,
+				B1AA0E0917532449008A46CA /* Default.png in Resources */,
+				B1AA0E0B17532449008A46CA /* Default@2x.png in Resources */,
+				B1AA0E0D17532449008A46CA /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1AA0DEF17532449008A46CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AA0E0317532449008A46CA /* main.m in Sources */,
+				B1AA0E0717532449008A46CA /* AppDelegate.m in Sources */,
+				B1AA0E15175324AF008A46CA /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1AA0DFF17532449008A46CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1AA0E0017532449008A46CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1AA0E0E17532449008A46CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: chen zheng (QAR2N48CR6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chen zheng (QAR2N48CR6)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "B006A43C-6F89-4045-9211-E65EA1096A79";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B006A43C-6F89-4045-9211-E65EA1096A79";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B1AA0E0F17532449008A46CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: chen zheng (QAR2N48CR6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chen zheng (QAR2N48CR6)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "B006A43C-6F89-4045-9211-E65EA1096A79";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B006A43C-6F89-4045-9211-E65EA1096A79";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1AA0E1117532449008A46CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: chen zheng (QAR2N48CR6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chen zheng (QAR2N48CR6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMediaPickerController/TestMediaPickerController-Prefix.pch";
+				INFOPLIST_FILE = "TestMediaPickerController/TestMediaPickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B006A43C-6F89-4045-9211-E65EA1096A79";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B006A43C-6F89-4045-9211-E65EA1096A79";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1AA0E1217532449008A46CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: chen zheng (QAR2N48CR6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chen zheng (QAR2N48CR6)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestMediaPickerController/TestMediaPickerController-Prefix.pch";
+				INFOPLIST_FILE = "TestMediaPickerController/TestMediaPickerController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B006A43C-6F89-4045-9211-E65EA1096A79";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B006A43C-6F89-4045-9211-E65EA1096A79";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1AA0DEE17532449008A46CA /* Build configuration list for PBXProject "TestMediaPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AA0E0E17532449008A46CA /* Debug */,
+				B1AA0E0F17532449008A46CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AA0E1017532449008A46CA /* Build configuration list for PBXNativeTarget "TestMediaPickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AA0E1117532449008A46CA /* Debug */,
+				B1AA0E1217532449008A46CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1AA0DEB17532449008A46CA /* Project object */;
+}
